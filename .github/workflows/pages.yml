@@ -1,0 +1,61 @@
+name: Actualizează și publică
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 4 * * *'   # zilnic, ~07:17 ora României
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ia rafturile de pe Goodreads
+        if: github.event_name != 'push'
+        env:
+          GOODREADS_USER: ${{ secrets.GOODREADS_USER }}
+          GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
+        run: python3 fetch.py
+
+      - name: Salvează schimbările
+        if: github.event_name != 'push'
+        run: |
+          git add data covers
+          if git diff --cached --quiet; then
+            echo "Nimic nou pe Goodreads."
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Goodreads: actualizare $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - run: python3 build.py _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
