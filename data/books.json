@@ -120,7 +120,7 @@
   {
    "book_id": "6767373",
    "title": "The Music of Life: Biology Beyond Genes",
-   "author_name": "Denis Noble",
+   "author_name": "Professor of Cardiovascular Physiology Denis Noble",
    "link": "https://www.goodreads.com/review/show/2789456989?utm_medium=api&utm_source=rss",
    "user_rating": "0",
    "average_rating": "3.81",
@@ -1113,7 +1113,7 @@
    "author_name": "Jared Diamond",
    "link": "https://www.goodreads.com/review/show/408002313?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "3.98",
+   "average_rating": "3.97",
    "user_read_at": "Fri, 21 Sep 2012 00:00:00 +0000",
    "user_date_added": "Fri, 22 Nov 2019 06:14:15 -0800",
    "user_shelves": "",
@@ -1516,7 +1516,7 @@
    "author_name": "Plato",
    "link": "https://www.goodreads.com/review/show/599906516?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "4.10",
+   "average_rating": "4.09",
    "user_read_at": "Mon, 1 Feb 2016 00:00:00 +0000",
    "user_date_added": "Tue, 02 Jan 2018 07:24:57 -0800",
    "user_shelves": "2016",
@@ -2033,7 +2033,7 @@
   {
    "book_id": "1038873",
    "title": "Think: A Compelling Introduction to Philosophy",
-   "author_name": "Simon Blackburn",
+   "author_name": "Professor of Philosophy Simon Blackburn",
    "link": "https://www.goodreads.com/review/show/1777094971?utm_medium=api&utm_source=rss",
    "user_rating": "4",
    "average_rating": "3.72",
@@ -2764,7 +2764,7 @@
    "author_name": "Irvin D. Yalom",
    "link": "https://www.goodreads.com/review/show/460174846?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.51",
+   "average_rating": "4.50",
    "user_read_at": "Sat, 5 Jan 2013 00:00:00 +0000",
    "user_date_added": "Sun, 27 Dec 2015 07:24:39 -0800",
    "user_shelves": "",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-05"
+ "fetched": "2026-10-06"
 }
