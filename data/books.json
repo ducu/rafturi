@@ -216,7 +216,7 @@
    "author_name": "Theodor Paleologu",
    "link": "https://www.goodreads.com/review/show/8665557551?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.11",
+   "average_rating": "4.10",
    "user_read_at": "Mon, 8 Jun 2026 00:00:00 +0000",
    "user_date_added": "Tue, 09 Jun 2026 22:03:47 -0700",
    "user_shelves": "2026",
@@ -528,7 +528,7 @@
    "author_name": "Leo Tolstoy",
    "link": "https://www.goodreads.com/review/show/6359479106?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "4.35",
+   "average_rating": "4.34",
    "user_read_at": "Sun, 5 May 2024 00:00:00 +0000",
    "user_date_added": "Sun, 05 May 2024 08:10:21 -0700",
    "user_shelves": "2024",
@@ -788,7 +788,7 @@
    "author_name": "Aristotle",
    "link": "https://www.goodreads.com/review/show/5369693336?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "4.57",
+   "average_rating": "4.58",
    "user_read_at": "Wed, 28 Dec 2016 00:00:00 +0000",
    "user_date_added": "Fri, 24 Feb 2023 07:25:46 -0800",
    "user_shelves": "2016",
@@ -2270,7 +2270,7 @@
    "author_name": "Franz Kafka",
    "link": "https://www.goodreads.com/review/show/1838187845?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.89",
+   "average_rating": "3.88",
    "user_read_at": "",
    "user_date_added": "Tue, 13 Dec 2016 10:31:09 -0800",
    "user_shelves": "",
@@ -2400,7 +2400,7 @@
    "author_name": "Herta Müller",
    "link": "https://www.goodreads.com/review/show/1838151244?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.03",
+   "average_rating": "3.04",
    "user_read_at": "",
    "user_date_added": "Tue, 13 Dec 2016 09:54:17 -0800",
    "user_shelves": "",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-06"
+ "fetched": "2026-10-07"
 }
