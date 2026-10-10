@@ -203,7 +203,7 @@
    "author_name": "Dan Panaet",
    "link": "https://www.goodreads.com/review/show/8750458384?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.82",
+   "average_rating": "3.80",
    "user_read_at": "Tue, 7 Jul 2026 00:00:00 +0000",
    "user_date_added": "Wed, 08 Jul 2026 05:02:02 -0700",
    "user_shelves": "2026",
@@ -281,7 +281,7 @@
    "author_name": "Mihail Sebastian",
    "link": "https://www.goodreads.com/review/show/8007705669?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "4.26",
+   "average_rating": "4.27",
    "user_read_at": "Sun, 30 Nov 2025 00:00:00 +0000",
    "user_date_added": "Sun, 30 Nov 2025 08:05:47 -0800",
    "user_shelves": "2025",
@@ -1646,7 +1646,7 @@
    "author_name": "René Descartes",
    "link": "https://www.goodreads.com/review/show/2185412794?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.14",
+   "average_rating": "4.09",
    "user_read_at": "Wed, 22 Nov 2017 00:00:00 +0000",
    "user_date_added": "Wed, 22 Nov 2017 04:41:35 -0800",
    "user_shelves": "2017",
@@ -2738,7 +2738,7 @@
    "author_name": "Matt Ridley",
    "link": "https://www.goodreads.com/review/show/625807524?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "3.87",
+   "average_rating": "3.86",
    "user_read_at": "Sun, 27 Dec 2015 00:00:00 +0000",
    "user_date_added": "Tue, 02 Feb 2016 01:43:41 -0800",
    "user_shelves": "",
@@ -2764,7 +2764,7 @@
    "author_name": "Irvin D. Yalom",
    "link": "https://www.goodreads.com/review/show/460174846?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.51",
+   "average_rating": "4.50",
    "user_read_at": "Sat, 5 Jan 2013 00:00:00 +0000",
    "user_date_added": "Sun, 27 Dec 2015 07:24:39 -0800",
    "user_shelves": "",
@@ -2816,7 +2816,7 @@
    "author_name": "Emil M. Cioran",
    "link": "https://www.goodreads.com/review/show/616183107?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.22",
+   "average_rating": "4.21",
    "user_read_at": "Mon, 27 May 2013 00:00:00 +0000",
    "user_date_added": "Sun, 27 Dec 2015 07:23:13 -0800",
    "user_shelves": "",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-09"
+ "fetched": "2026-10-10"
 }
