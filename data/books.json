@@ -6,7 +6,7 @@
    "author_name": "Alina Pavelescu",
    "link": "https://www.goodreads.com/review/show/8217798909?utm_medium=api&utm_source=rss",
    "user_rating": "0",
-   "average_rating": "4.71",
+   "average_rating": "4.64",
    "user_read_at": "",
    "user_date_added": "Sat, 03 Jan 2026 12:58:24 -0800",
    "user_shelves": "currently-reading",
@@ -120,7 +120,7 @@
   {
    "book_id": "6767373",
    "title": "The Music of Life: Biology Beyond Genes",
-   "author_name": "Professor of Cardiovascular Physiology Denis Noble",
+   "author_name": "Denis Noble",
    "link": "https://www.goodreads.com/review/show/2789456989?utm_medium=api&utm_source=rss",
    "user_rating": "0",
    "average_rating": "3.81",
@@ -203,7 +203,7 @@
    "author_name": "Dan Panaet",
    "link": "https://www.goodreads.com/review/show/8750458384?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.80",
+   "average_rating": "3.81",
    "user_read_at": "Tue, 7 Jul 2026 00:00:00 +0000",
    "user_date_added": "Wed, 08 Jul 2026 05:02:02 -0700",
    "user_shelves": "2026",
@@ -2033,7 +2033,7 @@
   {
    "book_id": "1038873",
    "title": "Think: A Compelling Introduction to Philosophy",
-   "author_name": "Professor of Philosophy Simon Blackburn",
+   "author_name": "Simon Blackburn",
    "link": "https://www.goodreads.com/review/show/1777094971?utm_medium=api&utm_source=rss",
    "user_rating": "4",
    "average_rating": "3.72",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-11"
+ "fetched": "2026-10-12"
 }
