@@ -736,7 +736,7 @@
    "author_name": "Fyodor Dostoevsky",
    "link": "https://www.goodreads.com/review/show/5345997847?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.92",
+   "average_rating": "3.93",
    "user_read_at": "Thu, 30 Mar 2023 00:00:00 +0000",
    "user_date_added": "Thu, 30 Mar 2023 03:54:38 -0700",
    "user_shelves": "dostoievski, 2023",
@@ -1061,7 +1061,7 @@
    "author_name": "Roger Scruton",
    "link": "https://www.goodreads.com/review/show/2394150542?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.67",
+   "average_rating": "3.71",
    "user_read_at": "Fri, 17 Jan 2020 00:00:00 +0000",
    "user_date_added": "Fri, 17 Jan 2020 06:23:12 -0800",
    "user_shelves": "2020",
@@ -1958,7 +1958,7 @@
    "author_name": "Thomas Mann",
    "link": "https://www.goodreads.com/review/show/1941399807?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.63",
+   "average_rating": "3.62",
    "user_read_at": "Fri, 17 Mar 2017 00:00:00 +0000",
    "user_date_added": "Mon, 06 Nov 2017 07:16:00 -0800",
    "user_shelves": "2017",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-12"
+ "fetched": "2026-10-13"
 }
