@@ -216,7 +216,7 @@
    "author_name": "Theodor Paleologu",
    "link": "https://www.goodreads.com/review/show/8665557551?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.10",
+   "average_rating": "4.09",
    "user_read_at": "Mon, 8 Jun 2026 00:00:00 +0000",
    "user_date_added": "Tue, 09 Jun 2026 22:03:47 -0700",
    "user_shelves": "2026",
@@ -229,7 +229,7 @@
    "author_name": "George Orwell",
    "link": "https://www.goodreads.com/review/show/8567334129?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.93",
+   "average_rating": "3.94",
    "user_read_at": "Wed, 20 May 2026 00:00:00 +0000",
    "user_date_added": "Fri, 22 May 2026 01:44:08 -0700",
    "user_shelves": "2026",
@@ -1308,7 +1308,7 @@
    "author_name": "Hannah Arendt",
    "link": "https://www.goodreads.com/review/show/1844528848?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "4.19",
+   "average_rating": "4.21",
    "user_read_at": "Sat, 24 Mar 2018 00:00:00 +0000",
    "user_date_added": "Sat, 31 Mar 2018 11:13:39 -0700",
    "user_shelves": "2018",
@@ -2101,7 +2101,7 @@
    "author_name": "John Fowles",
    "link": "https://www.goodreads.com/review/show/1838140367?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "2.95",
+   "average_rating": "2.93",
    "user_read_at": "Sat, 1 Jan 2000 00:00:00 +0000",
    "user_date_added": "Sun, 14 May 2017 02:29:21 -0700",
    "user_shelves": "",
@@ -3090,5 +3090,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-13"
+ "fetched": "2026-10-14"
 }
