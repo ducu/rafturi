@@ -1,6 +1,19 @@
 {
  "currently": [
   {
+   "book_id": "257570828",
+   "title": "Lumea de ieri. Amintirile unui european",
+   "author_name": "Stefan Zweig",
+   "link": "https://www.goodreads.com/review/show/9025688051?utm_medium=api&utm_source=rss",
+   "user_rating": "0",
+   "average_rating": "4.00",
+   "user_read_at": "",
+   "user_date_added": "Wed, 14 Oct 2026 11:14:43 -0700",
+   "user_shelves": "currently-reading",
+   "user_review": "",
+   "book_medium_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1787817978l/257570828._SX98_.jpg"
+  },
+  {
    "book_id": "244906879",
    "title": "Istoria orbilor. România în război, 1940–1945",
    "author_name": "Alina Pavelescu",
@@ -3090,5 +3103,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-14"
+ "fetched": "2026-10-15"
 }
