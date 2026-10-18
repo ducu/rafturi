@@ -19,7 +19,7 @@
    "author_name": "Alina Pavelescu",
    "link": "https://www.goodreads.com/review/show/8217798909?utm_medium=api&utm_source=rss",
    "user_rating": "0",
-   "average_rating": "4.64",
+   "average_rating": "4.63",
    "user_read_at": "",
    "user_date_added": "Sat, 03 Jan 2026 12:58:24 -0800",
    "user_shelves": "currently-reading",
@@ -762,7 +762,7 @@
    "author_name": "Fyodor Dostoevsky",
    "link": "https://www.goodreads.com/review/show/5412673471?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "3.78",
+   "average_rating": "3.77",
    "user_read_at": "Fri, 24 Mar 2023 00:00:00 +0000",
    "user_date_added": "Fri, 24 Mar 2023 04:59:39 -0700",
    "user_shelves": "2023, dostoievski",
@@ -2426,7 +2426,7 @@
    "author_name": "John Kennedy Toole",
    "link": "https://www.goodreads.com/review/show/1838149801?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.69",
+   "average_rating": "3.70",
    "user_read_at": "",
    "user_date_added": "Tue, 13 Dec 2016 09:52:13 -0800",
    "user_shelves": "",
@@ -2608,7 +2608,7 @@
    "author_name": "Milan Kundera",
    "link": "https://www.goodreads.com/review/show/1743944941?utm_medium=api&utm_source=rss",
    "user_rating": "3",
-   "average_rating": "3.56",
+   "average_rating": "3.57",
    "user_read_at": "",
    "user_date_added": "Thu, 01 Sep 2016 07:31:16 -0700",
    "user_shelves": "",
@@ -3103,5 +3103,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-17"
+ "fetched": "2026-10-18"
 }
