@@ -19,7 +19,7 @@
    "author_name": "Alina Pavelescu",
    "link": "https://www.goodreads.com/review/show/8217798909?utm_medium=api&utm_source=rss",
    "user_rating": "0",
-   "average_rating": "4.65",
+   "average_rating": "4.66",
    "user_read_at": "",
    "user_date_added": "Sat, 03 Jan 2026 12:58:24 -0800",
    "user_shelves": "currently-reading",
@@ -307,7 +307,7 @@
    "author_name": "Fyodor Dostoevsky",
    "link": "https://www.goodreads.com/review/show/2931760859?utm_medium=api&utm_source=rss",
    "user_rating": "5",
-   "average_rating": "4.67",
+   "average_rating": "4.66",
    "user_read_at": "Sun, 18 Aug 2019 00:00:00 +0000",
    "user_date_added": "Fri, 28 Nov 2025 13:57:49 -0800",
    "user_shelves": "2019, dostoievski",
@@ -749,7 +749,7 @@
    "author_name": "Fyodor Dostoevsky",
    "link": "https://www.goodreads.com/review/show/5345997847?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.93",
+   "average_rating": "3.94",
    "user_read_at": "Thu, 30 Mar 2023 00:00:00 +0000",
    "user_date_added": "Thu, 30 Mar 2023 03:54:38 -0700",
    "user_shelves": "dostoievski, 2023",
@@ -1178,7 +1178,7 @@
    "author_name": "Patrick J. Deneen",
    "link": "https://www.goodreads.com/review/show/2247428500?utm_medium=api&utm_source=rss",
    "user_rating": "4",
-   "average_rating": "3.79",
+   "average_rating": "3.78",
    "user_read_at": "Tue, 30 Apr 2019 00:00:00 +0000",
    "user_date_added": "Tue, 30 Apr 2019 08:18:21 -0700",
    "user_shelves": "2019",
@@ -3103,5 +3103,5 @@
    "21527117"
   ]
  },
- "fetched": "2026-10-26"
+ "fetched": "2026-10-27"
 }
