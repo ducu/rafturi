@@ -6,22 +6,20 @@ Pagina: https://ducu.github.io/rafturi/
 
 ## Cum se actualizează
 
-Singur. În fiecare dimineață, GitHub Action-ul din `.github/workflows/pages.yml`:
+De mână, după ce termini o carte sau scrii o recenzie. (Până pe 27 octombrie 2026 se actualiza singur din feed-urile RSS de pe Goodreads; Goodreads le-a scos, iar `list_rss` dă acum 404.)
 
-1. rulează `fetch.py`, care ia de pe Goodreads rafturile `currently-reading`, `read` și rafturile pe ani (`2016`, `2017`, …) și le salvează în `data/books.json`, plus coperțile noi în `covers/`;
-2. dacă s-a schimbat ceva, face commit cu schimbările;
-3. rulează `build.py` și publică pagina.
+1. Pe Goodreads: *My Books → Import and export → Export Library*. Salvează CSV-ul ca `data/goodreads_library_export.csv` (e în `.gitignore`: conține și raftul *to-read*).
+2. `python3 import_csv.py` — scrie `data/books.json` și descarcă coperțile cărților noi în `covers/`.
+3. `python3 build.py` și `open _site/index.html` ca să verifici pagina.
+4. `git add -A && git commit -m "Goodreads: actualizare" && git push` — GitHub Action-ul (`.github/workflows/pages.yml`) construiește și publică pagina.
 
-Deci ajunge să scrii recenzia pe Goodreads și să pui cartea pe raftul anului (ex. `2026`). A doua zi apare aici.
-Poți porni actualizarea și imediat, din tab-ul *Actions → Actualizează și publică → Run workflow*.
+Cartea trebuie să fie pe raftul anului (ex. `2026`) ca să apară în secțiunea anului, altfel ajunge la *Alte lecturi*.
 
-Action-ul are nevoie de două secrete (*Settings → Secrets and variables → Actions*):
-- `GOODREADS_USER`: id-ul numeric al contului (`7653898`);
-- `GOODREADS_KEY`: parametrul `key=` din linkul RSS al unui raft de pe Goodreads.
+Ce nu vine din CSV: media Goodreads (se păstrează cea veche, la cărțile noi lipsește), linkul recenziei (la cărțile noi e pagina cărții) și coperta (se ia de pe pagina cărții de pe Goodreads, sau de pe Open Library după ISBN). Mențiunile `[a:Nume|…]` din recenzii devin simplu numele.
 
 ## Ce e în repo
 
-- `data/books.json`: rafturile, așa cum le dă Goodreads. Istoricul git arată ce s-a schimbat de la o zi la alta.
+- `data/books.json`: rafturile, generate de `import_csv.py` din exportul Goodreads. Istoricul git arată ce s-a schimbat de la o zi la alta.
 - `data/overrides.json`: corecturi manuale pentru o carte, după `book_id`. De exemplu `{"12345": {"hide": true}}` o ascunde, iar `{"12345": {"user_review": "…"}}` îi înlocuiește textul.
 - `covers/`: coperțile, descărcate o singură dată.
 - `review.py`: împarte o recenzie în comentariile mele și citatele din carte (logica rafinată în multe runde; citește docstring-urile înainte să schimbi ceva) și pliază recenziile lungi după ~100 de cuvinte.
@@ -32,7 +30,7 @@ Secțiuni: *În curs* (raftul `currently-reading`), câte una pe fiecare raft an
 ## Local
 
 ```
-GOODREADS_USER=7653898 GOODREADS_KEY=… python3 fetch.py   # opțional
+python3 import_csv.py   # după un export nou
 python3 build.py
 open _site/index.html
 ```
