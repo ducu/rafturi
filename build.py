@@ -140,7 +140,7 @@ def main():
         else:
             missing.append(b['book_id'])
     if missing:
-        print('coperți lipsă (rulează fetch.py):', ', '.join(missing))
+        print('coperți lipsă (rulează import_csv.py):', ', '.join(missing))
     print(f'{len(currently)} în curs, {sum(len(v) for v in by_year.values())} pe ani, {len(other)} alte lecturi -> {OUT}')
 
 
