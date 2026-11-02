@@ -9,7 +9,7 @@
 <meta name="description" content="Recenzii și evidența cărților citite, din contul meu de Goodreads." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,400..700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --paper: #ffffff;
@@ -68,9 +68,11 @@
     text-transform: uppercase; color: var(--accent); margin: 0 0 12px;
   }
   h1 {
-    font-family: var(--font-serif); font-weight: 700; font-style: italic;
+    font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-variation-settings: 'opsz' 18;
+    font-weight: 500;
     font-size: clamp(2.6rem, 9vw, 4rem); line-height: 0.98; margin: 0 0 18px;
   }
+  h1 .title { font-style: italic; }
   .dek { font-size: 15px; line-height: 1.6; color: var(--ink-soft); max-width: 46ch; margin: 0 0 24px; }
 
   .ynav-sticky {
@@ -326,7 +328,7 @@
 <div class="page">
   <header class="masthead">
     <img class="avatar" src="avatar.jpg" alt="" width="48" height="48">
-    <h1>📚 Rafturi</h1>
+    <h1>📚 <span class="title">Rafturi</span></h1>
     <p class="dek">Ce citesc și ce am citit, cu recenziile mele — din contul de Goodreads.</p>
   </header>
   <div class="ynav-sticky">
